@@ -1,0 +1,10 @@
+h1 {
+  font-family: got_heroin;
+  font-size: 200px !important;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Got_Heroin;
+  src: url(./fonts/Got_Heroin.ttf);
+}
