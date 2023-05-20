@@ -1,1 +1,1 @@
-# jsprojects
+# JS Projects
