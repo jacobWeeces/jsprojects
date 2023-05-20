@@ -19,6 +19,7 @@
   background-color: #eee;
   cursor: pointer;
   transition: background-color .3s;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .accordion-header button {
@@ -34,6 +35,8 @@
 .accordion-body {
   background-color: white;
   display: none;
+  font-family:Arial, Helvetica, sans-serif;
+  transition: 1s ease-in-out;
 }
 
 .accordion.active .accordion-body {
