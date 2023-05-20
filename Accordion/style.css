@@ -35,3 +35,7 @@
   background-color: white;
   display: none;
 }
+
+.accordion.active .accordion-body {
+  display: block;
+}
