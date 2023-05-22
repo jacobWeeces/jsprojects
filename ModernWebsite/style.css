@@ -1,0 +1,77 @@
+html {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  color: #acacac;
+}
+
+/* Navigation Bar */
+ul.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+ul.nav-menu li {
+  display: inline-block;
+}
+
+ul.nav-menu li a {
+  display: block;
+  color: #acacac;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+ul.nav-menu li a:hover {
+  background-color: #ddd;
+}
+/* End nav bar */
+
+.hero img{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 15s;
+  -moz-animation: fadeIn ease 15s;
+  -o-animation: fadeIn ease 15s;
+  -ms-animation: fadeIn ease 15s;
+  opacity: .75;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:.75;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:.75;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:.75;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:.75;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:.75;}
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
