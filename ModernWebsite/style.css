@@ -5,6 +5,11 @@ html {
   color: #acacac;
 }
 
+@font-face {
+  font-family: 'DancingScript';
+  src: url(/ModernWebsite/fonts/DancingScript-VariableFont_wght.ttf);
+}
+
 /* Navigation Bar */
 ul.nav-menu {
   list-style-type: none;
@@ -74,4 +79,6 @@ ul.nav-menu li a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 1;
+  font-family: DancingScript;
+  font-size: 5em;
 }
